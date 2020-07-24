@@ -12,20 +12,22 @@ body{
 a{
    text-decoration: none;
 }
+
+/*First nav */
 .first-nav{
    display: flex;
    justify-content: space-between;
    padding: 15px ;
-   position: sticky;
-   top: 0;
-   left: 0;
+  /* position: sticky;*/
+   /* top: 0;
+   left: 0; */
    height: 35px;
    background: #fff;
    overflow: hidden;
 }
 .first-nav .logo{
    margin: 10px;
-   margin-top: -4px;
+   margin-top: -3px;
 }
 
 .first-nav .logo span{
@@ -55,8 +57,20 @@ a{
 .first-nav .icons div i{
    color: #000;
 }
+/* Second nav */
+.second-nav{
+   background: #fff;
+   display: flex;
+   justify-content: space-between;
+   padding: 10px 25px;
+   position: sticky;
+   top: 0;
 
 
+}
+.second-nav a svg {
+   fill: #65676b;
+}
 
 
 
