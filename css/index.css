@@ -7,7 +7,7 @@ body{
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-   background: #000000;
+   /* background: #000000; */
 }
 a{
    text-decoration: none;
@@ -18,9 +18,8 @@ a{
    display: flex;
    justify-content: space-between;
    padding: 15px ;
-  /* position: sticky;*/
-   /* top: 0;
-   left: 0; */
+   position: sticky;
+   top: 0;
    height: 35px;
    background: #fff;
    overflow: hidden;
@@ -34,7 +33,7 @@ a{
    font-size: 33px;
    font-weight: 900;
    letter-spacing: 2px;
-   color: #1053d8;
+   color: #1877F2;
 }
 .first-nav .icons{
    display: flex;
@@ -63,16 +62,34 @@ a{
    display: flex;
    justify-content: space-between;
    padding: 10px 25px;
-   position: sticky;
-   top: 0;
-
-
+   /* position: sticky; 
+   top: 0; */
+   margin-top: 0;
+   border-bottom: 0.5px #CED0D4 solid;
 }
 .second-nav a svg {
    fill: #65676b;
 }
-
-
+/*First section - Post type*/
+.post-type{
+   display: flex;
+   /* justify-content:space-between; */
+   padding: 20px;
+}
+.post-type .image img{
+   width: 50px;
+   height:50px;
+   border-radius: 50%;
+}
+.post-type .input-post input{
+   width: 100%;
+   border-radius: 50px;
+   outline: none;
+   border:  0.5px #CED0D4 solid;
+   padding: 10px;
+   margin-left: 20px;
+   margin-top: 5px;
+}
 
 
 
