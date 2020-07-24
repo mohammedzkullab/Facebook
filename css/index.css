@@ -16,9 +16,9 @@ body{
    position: sticky;
    top: 0;
    left: 0;
-   width: 735px;
    height: 35px;
    background: #fff;
+   overflow: hidden;
 }
 .first-nav .logo{
    margin: 10px;
