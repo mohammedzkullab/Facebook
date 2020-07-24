@@ -75,6 +75,7 @@ a{
    display: flex;
    /* justify-content:space-between; */
    padding: 20px;
+   
 }
 .post-type .image img{
    width: 50px;
@@ -89,6 +90,30 @@ a{
    padding: 10px;
    margin-left: 20px;
    margin-top: 5px;
+}
+.post-cat{
+   display: flex;
+   justify-content: space-between;
+   align-content: center;
+   margin-top: 0;
+   padding: 10px 30px;
+   border-top:  0.5px #CED0D4 solid;
+
+} 
+.post-cat div{
+   border-right: 0.5px #CED0D4 solid;
+   padding-right: 50px;
+}
+.post-cat div img {
+   width: 20px;
+   height:20px;
+   margin-right: 4px;
+}
+
+.post-cat div span{
+   text-align: center;
+   font-size: 15px;
+   font-weight: lighter;
 }
 
 
