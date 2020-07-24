@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44.161" height="33.302" viewBox="0 0 44.161 33.302">
+  <g id="live-news" transform="translate(-103.5)">
+    <g id="Group_3" data-name="Group 3" transform="translate(103.5)">
+      <path id="Path_1" data-name="Path 1" d="M247.844,28.687a4.344,4.344,0,1,1,4.344-4.344A4.349,4.349,0,0,1,247.844,28.687Z" transform="translate(-223.229 -17.104)" fill="#f02849"/>
+      <g id="Group_2" data-name="Group 2" transform="translate(0 12.34)">
+        <g id="Group_1" data-name="Group 1" transform="translate(37.645 2.139)">
+          <path id="Path_2" data-name="Path 2" d="M368.986,100.324a2.172,2.172,0,0,0-2.113-.1l-3.372,1.686v12.1l3.372,1.686a2.172,2.172,0,0,0,3.143-1.943V102.172a2.172,2.172,0,0,0-1.03-1.847Z" transform="translate(-363.5 -100)" fill="#f02849"/>
+        </g>
+        <path id="Path_3" data-name="Path 3" d="M134.879,85.566a8.674,8.674,0,0,1-13.664-.172,10.116,10.116,0,0,1-15.307-.17,5.069,5.069,0,0,0-2.408,4.311v11.583a5.073,5.073,0,0,0,5.068,5.068h23.166a5.073,5.073,0,0,0,5.068-5.068V89.535A5.06,5.06,0,0,0,134.879,85.566Z" transform="translate(-103.5 -85.224)" fill="#f02849"/>
+      </g>
+      <path id="Path_4" data-name="Path 4" d="M139.292,11.583a5.792,5.792,0,1,1,5.792-5.792A5.8,5.8,0,0,1,139.292,11.583Z" transform="translate(-129.156)" fill="#f02849"/>
+    </g>
+  </g>
+</svg>
