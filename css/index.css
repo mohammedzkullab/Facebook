@@ -12,12 +12,17 @@ body{
 .first-nav{
    display: flex;
    justify-content: space-between;
-   padding: 15px;
+   padding: 15px ;
    position: sticky;
    top: 0;
    left: 0;
-   width: 100%;
+   width: 735px;
+   height: 35px;
    background: #fff;
+}
+.first-nav .logo{
+   margin: 10px;
+   margin-top: -5px;
 }
 .first-nav .logo span{
    font-size: 33px;
@@ -29,7 +34,7 @@ body{
    display: flex;
    align-items: center;
    justify-content: center;
-   margin-right: 40px;
+   margin-right: 10px;
 
 }
 .first-nav .icons div{
