@@ -1,0 +1,124 @@
+@media (max-width:768px){
+html{
+   height: 6000px;
+}
+body{
+   font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   /* background: #000000; */
+}
+a{
+   text-decoration: none;
+}
+
+/*First nav */
+.first-nav{
+   display: flex;
+   justify-content: space-between;
+   padding: 15px ;
+   position: sticky;
+   top: 0;
+   height: 35px;
+   background: #fff;
+   overflow: hidden;
+}
+.first-nav .logo{
+   margin: 10px;
+   margin-top: -3px;
+}
+
+.first-nav .logo span{
+   font-size: 33px;
+   font-weight: 900;
+   letter-spacing: 2px;
+   color: #1877F2;
+}
+.first-nav .icons{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-right: 10px;
+}
+.first-nav .icons div{
+   background: #e4e6eb;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: 18px;
+   margin-top: 8px;
+}
+.first-nav .icons div i{
+   color: #000;
+}
+/* Second nav */
+.second-nav{
+   background: #fff;
+   display: flex;
+   justify-content: space-between;
+   padding: 10px 25px;
+   /* position: sticky; 
+   top: 0; */
+   margin-top: 0;
+   border-bottom: 0.5px #CED0D4 solid;
+}
+.second-nav a svg {
+   fill: #65676b;
+}
+/*First section - Post type*/
+.post-type{
+   display: flex;
+   /* justify-content:space-between; */
+   padding: 20px;
+   
+}
+.post-type .image img{
+   width: 50px;
+   height:50px;
+   border-radius: 50%;
+}
+.post-type .input-post input{
+   width: 100%;
+   border-radius: 50px;
+   outline: none;
+   border:  0.5px #CED0D4 solid;
+   padding: 10px;
+   margin-left: 20px;
+   margin-top: 5px;
+}
+.post-cat{
+   display: flex;
+   justify-content: space-between;
+   align-content: center;
+   margin-top: 0;
+   padding: 10px 30px;
+   border-top:  0.5px #CED0D4 solid;
+
+} 
+.post-cat div{
+   border-right: 0.5px #CED0D4 solid;
+   padding-right: 50px;
+}
+.post-cat div img {
+   width: 20px;
+   height:20px;
+   margin-right: 4px;
+}
+
+.post-cat div span{
+   text-align: center;
+   font-size: 15px;
+   font-weight: lighter;
+}
+
+
+
+
+
+
+}
